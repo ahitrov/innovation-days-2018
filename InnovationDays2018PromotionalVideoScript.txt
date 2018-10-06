@@ -41,11 +41,53 @@ Narrator:
 
 This is all fancy-shmancy but let me tell you how it is done and who are the men behind this app.
 
-A: We started off with Kinvey, cause it is reliable and secure and has all these great data conectors.
-B: Don't forget that it is GDPR and HIIPA compliant!
-A: Oh, yes, it is GDPR and HIIPA compliant too. Which means that if we were to create an app for the Healthcare or the Financing industry it would still be our first choice!
-B: Let's stay on topic!
-A: -
+A (Bulent, Product manager at IMDB): We started off with Kinvey, cause it is reliable and secure and has all these great data conectors.
+B (narrator): Don't forget that it is GDPR and HIIPA compliant!
+A (Bulent, Product manager at IMDB): Oh, yes, it is GDPR and HIIPA compliant too. Which means that if we were to create an app for the Healthcare or the Financing industry it would still be our first choice! (wink)
+B (narrator): Please stay on topic!
+A (Bulent, Product manager at IMDB): - (awkward pause)
+
+
+Scene (Data Consumption)
+A (Georgi P - Georgi A with a moustache, developer at IMDB): So we have launched imdb.com some 27 years ago and we have aggregated a large quantity of reviews. (show entries in Kinvey)
+	We have analysed those based on the sentiment of the review and can build a MACHINE LEARNING model so that we can pretty surely asses the sentiment of new reviews automatically without the need for a human analyser.
+
+B (narrator): Wow, that sounds great but also hard
+
+A (Alex, developer at IMDB): It's not hard at all.
+	You see, Kinvey has now integrated an Intelligence as a Service capabilities (show Jupyter)
+	that runs on Kubernetes (show Kubernetes console)
+	We load the existing data on which we build our MACHINE LEARNING model here (show Load Data repl)
+	And here we create, compile and fit the model. (show Build model repl)
+	Because Kinvey's Intelligence as a Service has a Jupyter based online editor it's really easy to find the best algorithm and tweak the parameters so that you get the model with the highest score while preventing overfitting.
+	
+B (narrator): I see. But you'll need to expose an interface so you can get the results from outside.
+
+A (Georgi A with a moustache, developer at IMDB): Oh yes, we have that too.
+	This is where we save the compiled model. (show the Save model repl)
+	And we export it with a REST API to the outside world using Kinvey's Flex services. (show the Export repl/Flex service in the Console API)
+	And it is really easy to test the Flex service using the Console API
+	
+	For a negative review we expect a negative result (show negative review)
+	And we get one
+	
+	Let's change the review to something positive (show positive review)
+	And we get a positive result.
+	
+	Easy as that!
+	
+B (narrator): Wow Flex services! Those scale automatically, correct?
+
+A (Bulent, product manager at IMDB): Yes, that was one more reason to choose Kinvey. Scalability was crucial as we have more than 80 million registered users. (show https://en.wikipedia.org/wiki/IMDb, blur everything but 83 million users)
+
+B (narrator): I'm speachless! So you say you have built your app using
+
+	Kinvey which is reliable, secure has all the data connectors, is GDPR and HIIPA compliant (show Bulent's As Is Kinvey schema)
+	and Kinvey now has this Intelligence as a Service module (show Bulent's Kinvey with Intelligence as service schema)
+	which makes it really easy to find the best MACHINE LEARNING model for your problem and tweak the parameters as it has a Jupyter-based online editor! (show list with advantages from Bulent's slides)
+	And you export the model with just a few clicks and the interface scales out of the box as it runs on a Flex service.
+	
+A (Georgi P - Georgi A with a moustache, developer at IMDB): (awkward pause) Yes (awkward pause)
 
 
 
@@ -54,12 +96,19 @@ Black screen, large font:
 
 Fun fact #1:
 
-IMDB Review Aggregator does not use Kinvey.
+The IMDB USER REVIEW MOVIE SCORE EXTRACTOR does not use Kinvey.
+(2 secs pause) Yet.
+(2 secs pause) In fact, it does exist.
 (2 secs pause) Yet.
 
 Fun fact #2:
 
-The voice over guy does not work and has never worked for IMDB.
+No one of the people appearing in this video works or has ever worked for IMDB. (Start typing Yet. Stop at Ye. Delete. Type Fullstop in words)
+(2 secs pause) They all work for Progress Software.
+
+Type 'Kinvey, now with Intelligence as a Service capabilities' (Alex, Georgi and Bulent sing Kinveeey. by Progress)
+
+END 
 
 Scene (Variant 2):
 Go to Aquaman page (https://www.imdb.com/title/tt1477834/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=f5d98e4a-da46-4e37-9028-a6e10c8f442e&pf_rd_r=Y89AN2BNQ9FTAB6PJG99&pf_rd_s=hero&pf_rd_t=15061&pf_rd_i=homepage&ref_=hm_hp_cap_pri_2)
