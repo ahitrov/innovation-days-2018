@@ -30,16 +30,24 @@ Narrator:
 
 We call it THE IMDB USER REVIEW MOVIE SCORE EXTRACTOR, URMSE for short, and is an integral part of the entry for every movie. And we have entries for all the movies! Ever! (IMDB site scene (A))
 
-Once a user has created a new review the USER REVIEW MOVIE SCORE EXTRACTOR would analyse the review and through the power of Machine Learning would extract an honest score based on the review's sentiment (create review scene (B)).
-
-
+Once a user has creates a new review the USER REVIEW MOVIE SCORE EXTRACTOR would analyse the review and through the power of Machine Learning would extract an honest score based on the review's sentiment (create review scene (B)).
 
 
 Scene (How it is done):
 
+Show team at work
+
+Narrator:
+
+This is all fancy-shmancy but let me tell you how it is done and who are the men behind this app.
+
+A: We started off with Kinvey, cause it is reliable and secure and has all these great data conectors.
+B: Don't forget that it is GDPR and HIIPA compliant!
+A: Oh, yes, it is GDPR and HIIPA compliant too. Which means that if we were to create an app for the Healthcare or the Financing industry it would still be our first choice!
+B: Let's stay on topic!
+A: -
 
 
-- 
 
 Scene (Variant 1):
 Black screen, large font:
