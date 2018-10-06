@@ -1,0 +1,69 @@
+Innovation Days 2018 Team FlexML Promotional Video Script
+
+intro:
+https://www.imdb.com/list/ls053181649/videoplayer/vi3416832537?ref_=vp_pl_1 from 3:53 to 4:10
+
+Narrator (Texas/southern accent?):
+
+- Let me tell you a story about a little app we have here at IMDB. Mhm well, yes, that IMDB, with the movies n stuff (bell tower explodes).
+
+(pause)
+
+Scene (User Value):
+A) Show the IMDB web site
+Go to Aquaman page (https://www.imdb.com/title/tt1477834/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=f5d98e4a-da46-4e37-9028-a6e10c8f442e&pf_rd_r=Y89AN2BNQ9FTAB6PJG99&pf_rd_s=hero&pf_rd_t=15061&pf_rd_i=homepage&ref_=hm_hp_cap_pri_2)
+Scroll down
+
+Go to Justice league page (https://www.imdb.com/title/tt0974015/?ref_=nv_sr_2)
+B) Scroll down to User Reviews
+Create a review:
+
+This movie is awesome! (See score going from 6.6 to 6.8)
+
+(1 sec pause)
+
+edit to:
+
+This movie is awesomish! (See score going from 6.8 to 6.7)
+
+Narrator:
+
+We call it THE IMDB USER REVIEW MOVIE SCORE EXTRACTOR, URMSE for short, and is an integral part of the entry for every movie. And we have entries for all the movies! Ever! (IMDB site scene (A))
+
+Once a user has created a new review the USER REVIEW MOVIE SCORE EXTRACTOR would analyse the review and through the power of Machine Learning would extract an honest score based on the review's sentiment (create review scene (B)).
+
+
+
+
+Scene (How it is done):
+
+
+
+- 
+
+Scene (Variant 1):
+Black screen, large font:
+
+Fun fact #1:
+
+IMDB Review Aggregator does not use Kinvey.
+(2 secs pause) Yet.
+
+Fun fact #2:
+
+The voice over guy does not work and has never worked for IMDB.
+
+Scene (Variant 2):
+Go to Aquaman page (https://www.imdb.com/title/tt1477834/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=f5d98e4a-da46-4e37-9028-a6e10c8f442e&pf_rd_r=Y89AN2BNQ9FTAB6PJG99&pf_rd_s=hero&pf_rd_t=15061&pf_rd_i=homepage&ref_=hm_hp_cap_pri_2)
+Go to 'Did you know?' section
+
+- First entry reads:
+
+IMDB Review Aggregator does not use Kinvey. See more(link) // Blur everything else.
+
+- Click on See more link (land on https://www.imdb.com/title/tt1477834/trivia?ref_=tt_trv_trv)
+
+- First entry reads:
+
+IMDB Review Aggregator does not use Kinvey. Yet // Blur everything else.
+
